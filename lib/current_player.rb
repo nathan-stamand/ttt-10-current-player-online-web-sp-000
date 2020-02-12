@@ -6,7 +6,8 @@ def turn_count(board)
     elsif character == "O"
       new_board << character
     end
-  return new_board.count; 
+  end
+  return new_board.count 
 end
 
 def current_player(board)
